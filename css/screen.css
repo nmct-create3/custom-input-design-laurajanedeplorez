@@ -898,21 +898,26 @@ align-items: center;
 }
 
 /*SELECT*/
-.c-custom-select{
-    display:  block;
+.c-custom-select {
+    display: block;
     position: relative;
-    -webkit-appearance:none;
-    appearance:none;
 }
 
-.c-custom-select__symbols{
+.c-custom-select__input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 6px;
+}
+
+.c-custom-select__symbol {
     width: 24px;
-    height:24px;
+    height: 24px;
     position: absolute;
-    top:12px;
-    right:12px;
-    pointer-events: none; /*zodat je door het pijltje kan clicken*/
-    fill:var(--color-neutral-x-light);
+    top: 4px;
+    right: 12px;
+    pointer-events: none;
+    fill: var(--color-neutral-x-light)
 }
 
 
